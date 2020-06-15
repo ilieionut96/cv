@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cv {
+  position: relative;
+  margin: 0 auto;
+  height: 950px;
+  width: 600px;
+  background-color: #ffffff;
+  transform: scale(1);
+}
+
+.cv-page {
+  margin-top: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.st0 {
+  stroke: #000000;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st6 {
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st7 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st8 {
+  fill: #ffffff;
+}
+
+.st9 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  opacity: 0.8;
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st11 {
+  opacity: 0.7;
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st12 {
+  fill: #ff6600;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st13 {
+  fill: #00bf05;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st14 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st15 {
+  fill: #df00cf;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st16 {
+  fill: #00b3d4;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.st17 {
+  fill: #c6c6c6;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.st18 {
+  fill: #b3b3b3;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.top-text h5 {
+  position: absolute;
+  top: 18%;
+  left: 26.5%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.top-text .designer {
+  position: absolute;
+  top: 20%;
+  left: 26.5%;
+}
+
+.top-text .email {
+  position: absolute;
+  top: 24.7%;
+  left: 30%;
+}
+
+.personal-information h5 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 800;
+  top: 33.7%;
+  left: 26.5%;
+}
+
+.personal-information span {
+  position: absolute;
+  top: 37.2%;
+  left: 26.5%;
+  font-size: 10px;
+  width: 260px;
+}
+
+.contact h5 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 800;
+  top: 42.4%;
+  left: 26.5%;
+}
+
+.contact .contact1 {
+  position: absolute;
+  font-size: 9px;
+  top: 44.5%;
+  width: 130px;
+  left: 26.5%;
+}
+
+.contact .contact2 {
+  position: absolute;
+  font-size: 9px;
+  top: 44.7%;
+  left: 54%;
+}
+
+.contact .contact3 {
+  position: absolute;
+  font-size: 9px;
+  top: 48.1%;
+  left: 26.5%;
+}
+
+.contact .contact4 {
+  position: absolute;
+  font-size: 9px;
+  top: 48.1%;
+  left: 54%;
+}
+
+.education h5 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 800;
+  top: 53.5%;
+  left: 26.5%;
+}
+
+.education span {
+  position: absolute;
+  top: 57%;
+  left: 26.5%;
+  font-size: 11px;
+  width: 270px;
+}
+
+.education .school1 {
+  position: absolute;
+  font-size: 9px;
+  top: 62.2%;
+  left: 26.5%;
+}
+
+.education .school2 {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 700;
+  top: 62%;
+  left: 40%;
+}
+
+.education .school3 {
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+  top: 63.7%;
+  left: 26.5%;
+}
+
+.education .school4 {
+  position: absolute;
+  font-size: 10px;
+  top: 64.9%;
+  left: 26.5%;
+}
+
+.education .school5 {
+  position: absolute;
+  font-size: 10px;
+  top: 67.3%;
+  left: 26.5%;
+}
+
+.education .school6 {
+  position: absolute;
+  font-size: 10px;
+  top: 67.3%;
+  font-weight: 600;
+  left: 40%;
+}
+
+.education .school7 {
+  position: absolute;
+  font-size: 10px;
+  top: 69.1%;
+  font-weight: 600;
+  left: 26.5%;
+}
+
+.education .school8 {
+  position: absolute;
+  font-size: 10px;
+  top: 70.3%;
+  left: 26.5%;
+}
+
+.work-experience h5 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 800;
+  bottom: 25.5%;
+  left: 26.5%;
+}
+
+.work-experience .work1 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 23%;
+  left: 26.5%;
+}
+
+.work-experience .work2 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 23%;
+  left: 40%;
+  font-weight: 600;
+}
+
+.work-experience .work3 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 21.2%;
+  font-weight: 600;
+  left: 26.5%;
+}
+
+.work-experience .work4 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 20%;
+  left: 26.5%;
+}
+
+.work-experience .work5 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 17%;
+  left: 26.5%;
+}
+
+.work-experience .work6 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 17%;
+  left: 40%;
+  font-weight: 600;
+}
+
+.work-experience .work7 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 15.2%;
+  font-weight: 600;
+  left: 26.5%;
+}
+
+.work-experience .work8 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 14%;
+  left: 26.5%;
+}
+
+/* BLUE */
+
+.blue {
+  position: absolute;
+  top: 15%;
+  left: 7.4%;
+  z-index: 100;
+  width: 100px;
+  transition: 3s;
+}
+
+.blue:hover {
+  transform: rotate(360deg);
+}
+
+.bst0 {
+  fill: #00b3d4;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.bst1 {
+  fill: #ffffff;
+}
+
+.bst2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.bst3 {
+  fill: #c6c6c6;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.bst4 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.bst5 {
+  fill: #b3b3b3;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+/* PINK */
+
+.pink {
+  position: absolute;
+  top: 32.3%;
+  left: 7.4%;
+  z-index: 100;
+  width: 100px;
+  transition: 2s;
+}
+
+.pink:hover {
+  transform: scale(1.2);
+}
+
+.pst0 {
+  fill: #df00cf;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.pst1 {
+  fill: #ffffff;
+}
+
+.pst2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.pst3 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.pst4 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+/* ORANGE */
+
+.orange {
+  position: absolute;
+  top: 52%;
+  left: 7.4%;
+  z-index: 100;
+  width: 100px;
+  transition: 1s;
+}
+
+.orange:hover {
+  filter: drop-shadow(0px 3px 12px #ff6600);
+  transform: scale(0.9);
+}
+.ost0 {
+  fill: #ff6600;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.ost1 {
+  fill: #ffffff;
+}
+
+.ost2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+/* GREEN */
+
+.green {
+  position: absolute;
+  top: 72%;
+  left: 7.4%;
+  z-index: 100;
+  width: 100px;
+  transition: 2s;
+}
+
+.green:hover {
+  filter: drop-shadow(0px 1px 12px #00bf05);
+  transform: rotate(-180deg);
+}
+
+.gst0 {
+  fill: #00bf05;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.gst1 {
+  fill: #ffffff;
+}
+
+.gst2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.gst3 {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.gst4 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
